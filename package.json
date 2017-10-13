@@ -2,7 +2,10 @@
   "name": "@talentui/tools",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/talentui/tools.git",
+  "repository": {
+    "type": "git",
+    "url": ""https://github.com/talentui/tools.git""
+  },
   "author": "liguoming@beisen.com",
   "license": "MIT",
   "dependencies": {
