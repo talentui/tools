@@ -2,7 +2,7 @@
     "compilerOptions": {
       "module": "esnext",
       "target": "es5",
-      "lib": ["es6", "dom"],
+      "lib": ["es2015", "es2016", "es2017", "dom"],
       "sourceMap": true,
       "allowJs": true,
       "jsx": "react",
@@ -12,9 +12,19 @@
       "noImplicitThis": true,
       "noImplicitAny": true,
       "experimentalDecorators": true,
+      "emitDecoratorMetadata":true,
       "strictNullChecks": true,
       "suppressImplicitAnyIndexErrors": true,
       "noUnusedLocals": true,
+      // 是否生成d.ts文件，组件打包需要生成，项目打包不需要。
+      // "declaration": false,
+      // d.ts文件生成的目录
+      // "declarationDir": "dist/types",
+      // 输出文件的目录
+      // "outDir": "compiled",
+      "typeRoots": [
+        "node_modules/@types"
+      ],
       "paths": {
         "&/*": ["src/*"]
       }
