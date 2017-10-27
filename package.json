@@ -1,6 +1,6 @@
 {
   "name": "@talentui/tools",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -11,12 +11,24 @@
   "dependencies": {
     "@talentui/dll-naming": "^1.0.0",
     "@talentui/dll-parser": "^1.0.1",
-    "@talentui/jest-config": "^1.0.0"
+    "@talentui/jest-config": "^1.0.1"
   },
   "devDependencies": {
-    "jest": "^21.2.1"
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.0.0",
+    "husky": "^0.14.3",
+    "jest": "^21.2.1",
+    "semantic-release": "^8.2.0"
   },
   "scripts": {
-    "test": "jest"
+    "precm":"jest",
+    "test": "jest",
+    "cm":"git-cz",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
