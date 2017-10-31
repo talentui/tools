@@ -22,9 +22,9 @@
       // "declarationDir": "dist/types",
       // 输出文件的目录
       // "outDir": "compiled",
-      "typeRoots": [
-        "node_modules/@types"
-      ],
+      // "typeRoots": [
+      //   "node_modules/@types"
+      // ],
       "paths": {
         "&/*": ["src/*"]
       }
