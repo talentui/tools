@@ -1,6 +1,6 @@
 {
   "name": "@talentui/tools",
-  "version": "2.0.0-beta.0",
+  "version": "2.0.0-beta.1",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -11,7 +11,7 @@
   "dependencies": {
     "@talentui/dll-naming": "^1.0.0",
     "@talentui/dll-parser": "^1.0.1",
-    "@talentui/jest-config": "^2.0.0-beta.1"
+    "@talentui/jest-config": "^2.0.0-beta.2"
   },
   "devDependencies": {
     "commitizen": "2.9.6",
